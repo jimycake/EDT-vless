@@ -631,7 +631,7 @@ async function handleUDPOutBound(webSocket, vlessResponseHeader, log) {
  */
 async function getVLESSConfig(userID, hostName, proxyIP) {
     try {
-        const response = await fetch(`https://bitzblack.my.id/api?ip=${proxyIP}`);
+        const response = await fetch(`https://skuylan.my.id/api?ip=${proxyIP}`);
 
         const data = await response.json();
         const proxyip = data.proxyStatus;
