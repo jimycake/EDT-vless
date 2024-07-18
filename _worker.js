@@ -1,11 +1,11 @@
 // <!--GAMFC-->version base on commit 841ed4e9ff121dde0ed6a56ae800c2e6c4f66056, time is 2024-04-16 18:02:37 UTC<!--GAMFC-END-->.
 // @ts-ignore
-import { connect } from 'cloudflare:sockets';
+import { connect } from "cloudflare:sockets";
 
-let userID = '1bef101e-0f39-4f2d-b401-59403c44095a';
+let userID = "1bef101e-0f39-4f2d-b401-59403c44095a";
 
-let proxyIP = ['64.110.103.69'];
-let hostnames = ['jp1'];
+let proxyIP = ["64.110.103.69"];
+let hostnames = ["jp1"];
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
