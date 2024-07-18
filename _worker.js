@@ -2,7 +2,7 @@
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
 
-let userID = 'b0cb1b0b-f5ba-4ca4-a587-cfe48126bff7';
+let userID = '1bef101e-0f39-4f2d-b401-59403c44095a';
 
 let proxyIP = ['35.219.50.99'];
 let hostnames = ['idg0'];
