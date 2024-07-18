@@ -35,7 +35,7 @@ export default {
 								"Content-Type": "application/json;charset=utf-8",
 							},
 						});
-					case `/skuylan`: {
+					case `/bagyo`: {
 						const vlessConfig = await getVLESSConfig(userID, request.headers.get('Host'), proxyIP);
 						return new Response(`${vlessConfig}`, {
 							status: 200,
