@@ -35,7 +35,7 @@ export default {
 								"Content-Type": "application/json;charset=utf-8",
 							},
 						});
-					case `/bagyo`: {
+					case `/skuylan`: {
 						const vlessConfig = await getVLESSConfig(userID, request.headers.get('Host'), proxyIP);
 						return new Response(`${vlessConfig}`, {
 							status: 200,
@@ -671,7 +671,7 @@ VLESS ACCOUNT INFORMATION
 
 
 <div style="text-align: center;">
-  <a href="https://t.me/bagyog" target="_blank" style="text-decoration: none;">Contact Me: <button style="color: #00D69F; background-color: transparent; border: none;">Telegram</button></a>
+  <a href="https://t.me/bagyog" target="_blank" style="text-decoration: none;">Thanks to: <button style="color: #00D69F; background-color: transparent; border: none;">Telegram</button></a>
 </div>`;
 
         const htmlHead = `
