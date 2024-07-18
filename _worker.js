@@ -4,8 +4,8 @@ import { connect } from 'cloudflare:sockets';
 
 let userID = '1bef101e-0f39-4f2d-b401-59403c44095a';
 
-let proxyIP = ['35.219.50.99'];
-let hostnames = ['idg0'];
+let proxyIP = [''];
+let hostnames = [''];
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
